@@ -9,8 +9,10 @@ namespace Zoo_ConsoleApp
             Console.WriteLine("Hello Zoo!");
 
             Dyr elefant = new Dyr("Elefant");
+            Insekt stankelben = new Insekt("Stankelben");
 
             Console.WriteLine(elefant.DyreNavn);
+            Console.WriteLine(stankelben.InsektNavn);
 
         }
     }
