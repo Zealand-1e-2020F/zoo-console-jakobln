@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Pattedyr
+    public class Pattedyr : Dyr
     {
+        public Pattedyr(string navn) : base(navn)
+        {
+        }
     }
 }

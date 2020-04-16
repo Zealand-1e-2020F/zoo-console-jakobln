@@ -7,7 +7,7 @@ namespace Zoo_ConsoleApp
     /// <summary>
     /// base klasse for dyr i zoo
     /// </summary>
-    public class Dyr
+    public abstract class Dyr
     {
         public string DyreNavn { get; }
 
@@ -26,9 +26,11 @@ namespace Zoo_ConsoleApp
         public Dyr(string navn)
         {
             this.DyreNavn = navn;
-
         }
 
-
+        public override string ToString()
+        {
+            return $"Typen er :{DyreNavn}";
+        }
     }
 }

@@ -4,10 +4,7 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    public class Insekt : Dyr
+    interface IRovDyr
     {
-        public Insekt(string navn) : base(navn)
-        {
-        }
     }
 }

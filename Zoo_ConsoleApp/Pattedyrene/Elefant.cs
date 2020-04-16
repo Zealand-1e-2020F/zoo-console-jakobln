@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    public class Insekt : Dyr
+    public class Elefant : Pattedyr
     {
-        public Insekt(string navn) : base(navn)
+        public Elefant(string navn) : base(navn)
         {
         }
     }
