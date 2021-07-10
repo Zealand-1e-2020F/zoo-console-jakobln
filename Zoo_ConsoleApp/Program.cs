@@ -1,4 +1,5 @@
 ﻿using System;
+using Zoo_ConsoleApp.Fisketyper;
 
 namespace Zoo_ConsoleApp
 {
@@ -8,10 +9,15 @@ namespace Zoo_ConsoleApp
         {
             Console.WriteLine("Hello Zoo!");
 
-            Dyr elefant = new Dyr("Elefant");
+            var sild = new Sild("Sild");
+            var elefant = new Elefant("Elefant");
+            Insekt stankelben = new Insekt("Stankelben");
+            Hvalhaj hvalhaj = new Hvalhaj("Hvalhaj");
 
+            Console.WriteLine(sild.DyreNavn);
             Console.WriteLine(elefant.DyreNavn);
-
+            Console.WriteLine(stankelben.DyreNavn);
+            Console.WriteLine(hvalhaj.DyreNavn);
         }
     }
 }
